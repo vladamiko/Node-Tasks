@@ -1,0 +1,22 @@
+How to start:
+1 Install node.js (you can use werb-site https://nodejs.org/uk/)
+2 Download into any folder server from https://drive.google.com/drive/folders/0B9-bN_wKJPwOa1lXMklZem1GYms?usp=sharing
+3 Extract server from archive
+4 Open folder 'server' and run cmd there
+5 Use node server.js and you should see 'Server started ...' in cmd
+
+Quick test:
+1 Open in browser 'localhost:3000'
+Expected result: page with text 'You should see your page here ...'
+
+2 Open in browser 'localhost:3000/bla-bla-bla'
+Expected result: page with text '404<br>Sorry: file not found ...'
+
+3 Open in browser 'localhost:3000/get-time'
+Expected result: {curent-time: 12:30:27}
+
+What you should to do now?
+1 Replace content of 'client' folder to your own
+2 Open in browser 'localhost:3000'
+3 Be happy :)
+
